@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <span id="heading"><strong>Calculator</strong></span>
+    <p>
+        <label for="num1"><strong>Num1: </strong></label>
+        <input type="number" name="num1" id="num1">
+    </p>
+    <p>
+        <label for="num2"><strong>Num2: </strong></label>
+        <input type="number" name="num2" id="num2">
+    </p>
+    <button id="add-btn" onclick="add()">Add</button>
+    <button id="subtract-btn" onclick="subtract()">Subtract</button>
+    <button id="multiply-btn" onclick="multiply()">Multiply</button>
+    <button id="divide-btn" onclick="divide()">Divide</button>
+    <br><br>
+    <span id="sum-el"><strong>Result: </strong></span>
+</body>
+
+</html>
